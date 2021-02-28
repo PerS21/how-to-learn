@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -25,13 +25,13 @@
   width: 568px;
 }
 
-.logo_place_header{
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 }
 
-.header__title{
+.header__title {
   position: absolute;
   left: 64px;
   align-self: center;
@@ -41,7 +41,7 @@
   z-index: 100;
 }
 
-.header__subtitle{
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -51,29 +51,30 @@
   z-index: 100;
 }
 
-.header__main-illustration{
+.header__main-illustration {
   position: absolute;
-  bottom: 0; right: 0;
+  bottom: 0;
+  right: 0;
   width: 765px;
   height: 608px;
   z-index: 2;
 }
 
-.header__square-pic{
-  position:absolute;
+.header__square-pic {
+  position: absolute;
   width: 568px;
   height: 568px;
-  background-color:#2f80ed;
+  background-color: #2f80ed;
   top: 64px;
   right: 0px;
   z-index: 1;
 }
 
-.description{
+.description {
   display: flex;
 }
 
-.two-columns{
+.two-columns {
   margin: 100px auto;
   justify-content: space-between;
   width: 80%;
@@ -83,19 +84,20 @@
   line-height: 1.2;
 }
 
-.two-columns__main-text{
-  width: 80%; min-width: 784px;
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
 }
 
-.two-columns__paragraph_margin-bottom{
+.two-columns__paragraph_margin-bottom {
   margin-bottom: 30px;
 }
 
-.two-columns__span-accent{
+.two-columns__span-accent {
   font-weight: bold;
 }
 
-.two-columns__brief{
+.two-columns__brief {
   width: 175px;
   color: #2f80ed;
   font-size: 18px;
@@ -112,25 +114,50 @@
   margin-top: 80px;
 }
 
-.digits{
+.digits {
 }
 
-.digits__section-title{
+.digits__section-title {
   width: 60%;
   margin: 0 auto 20px;
   font-weight: bold;
   font-size: 60px;
   line-height: 1.15;
-  text-align: center
+  text-align: center;
 }
 
-.digits__section-subtitle{
-  margin: auto;
+.digits__section-subtitle {
   text-align: center;
   font-size: 24px;
   line-height: 34px;
 }
 
-.digits__table{
-  margin: 60px auto 100px;
+.digits__table {
+  width: 1100px;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.digits__cell {
+  width: 250px;
+}
+
+.digits__cell_margin-top {
+  margin-top: 60px;
+}
+
+.digits__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.digits__text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px;
 }
