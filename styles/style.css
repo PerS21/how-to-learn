@@ -141,9 +141,6 @@
 
 .table__cell {
   width: 250px;
-}
-
-.table__cell_margin-top {
   margin-top: 60px;
 }
 
@@ -216,17 +213,14 @@
   line-height: 34px;
 }
 
-.table__cell_theme-dark_margin-top{
-  margin-top: 80px;
-}
-
 .table_theme-dark{
-  padding-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 .table__cell_theme-dark{
   width: 200px;
   z-index: 1;
+  margin-top: 80px;
 }
 
 .table__heading_theme-dark{
@@ -260,5 +254,4 @@
   padding-top: 60px;
   padding-bottom: 40px;
   flex-basis: 711px;
-  
 }
