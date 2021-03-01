@@ -19,12 +19,6 @@
   position: relative;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -293,7 +287,6 @@
   display: flex;
   margin: 20px 0 16px;
   flex-direction: column;
-  display: flex;
   justify-content: space-between;
   font-size: 18px;
   line-height: 30px;
