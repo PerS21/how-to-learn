@@ -1,8 +1,9 @@
-
 .link{
-
+    opacity: 1;
+    transition: opacity 4s;
 }
 
 .link:hover{
     transform: translate(10px, 0px);
+    opacity: 0.5;
 }
