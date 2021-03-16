@@ -1,7 +1,13 @@
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3, 240px);
-    gap: 0 100px;
-    margin: auto;
-    width: 920px;
+.cards {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  gap: 0 100px;
+  margin: auto;
+  width: 920px;
 }
